@@ -54,7 +54,7 @@ A Classification and a list of papers and other resources on Generative AI Techn
 |Histopathology-to-Text|	Translates histopathological images into textual descriptions.|	Used to create pathology reports from histopathological images.	|																						
 |Text-to-Microscopy|	Generates microscopy images from textual descriptions.|	Could be used for training and education purposes based on descriptions of microscopic findings.|																							
 |Microscopy-to-Text|	Translates microscopy images into textual descriptions.|	Used to create laboratory reports from microscopic images.	|																							
-|Text-to-Retinal	Generates retinal images from textual descriptions.	Could be used for training and education purposes based on descriptions of ophthalmic conditions.|																							
+|Text-to-Retinal|	Generates retinal images from textual descriptions.|	Could be used for training and education purposes based on descriptions of ophthalmic conditions.|																							
 |Retinal-to-Text|	Translates retinal images into textual descriptions.|	Used to create ophthalmology reports from retinal images.	|
 
 ## video
