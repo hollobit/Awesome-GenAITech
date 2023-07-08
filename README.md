@@ -181,6 +181,24 @@ Let's look at some types of generative tasks and the generative models often ass
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
 |:-:|:--|:--|
 
+## Issues
+Generative AI, while offering numerous possibilities, also presents a range of issues and challenges. Here are some of the major concerns:
+
+1. **Quality of Generated Content:** While Generative AI models can create realistic outputs, the consistency and quality, especially across diverse data inputs, can be variable. For example, the generated text might still occasionally lack context, show bias, or provide inappropriate or nonsensical responses.
+
+2. **Data Privacy and Security:** Generative models typically require large volumes of data for training, which might include private or sensitive information. There's a potential risk to privacy if models unintentionally memorize and reproduce such data.
+
+3. **Ethical Considerations:** There's the potential for misuse of Generative AI in the creation of deepfakes – highly realistic images, videos, or audio of individuals appearing to say or do things that they didn't. This can raise serious ethical and legal issues, as deepfakes can be used for purposes such as misinformation, fraud, or harassment.
+
+4. **Bias:** As with any AI model, generative models can also mirror and amplify the biases present in their training data. A text-generating model, for instance, might produce gender-biased content if trained on a dataset with predominantly male authors.
+
+5. **Computational Resources:** Training generative models can be computationally expensive and contribute to environmental issues due to the high energy consumption of data centers.
+
+6. **Evaluation Challenges:** Measuring the performance of generative models can be difficult. In text or image generation, for example, evaluating the creativity or relevance of generated content in a quantitative manner can be challenging.
+
+7. **Regulatory Challenges:** As with many emerging technologies, there is a lack of clear regulations surrounding the use of generative AI, which can make it difficult to ensure accountability and prevent misuse.
+
+
 ## Contributing
 This is an active repository and your contributions are always welcome!
 
