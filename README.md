@@ -2,9 +2,45 @@
 
 A Classification and a list of papers and other resources on Generative AI Techniques. 
 
-<img src="GAIT-classification.png" width="80%">
+<img src="GAIT-classification.png" width="90%">
+
+Generative AI refers to a type of artificial intelligence, most commonly associated with machine learning, that is used to create content. It's called "generative" because it can generate new, previously unseen data that mirrors the training data.
+
+Generative AI systems can create a wide range of outputs, including but not limited to text, images, music, and voice. 
 
 ## Table of Content
+
+## Generative ML models
+
+A few key examples of ML models for generative AI are:
+
+* Generative Adversarial Networks (GANs): This is a class of machine learning frameworks where two neural networks contest with each other. One network, called the "generator", generates new data instances, while the other, the "discriminator", evaluates them for authenticity. The generator improves its ability to create realistic data, and the discriminator enhances its ability to distinguish real data from artificial ones. GANs are often used to generate realistic images, enhance image resolution (Super Resolution), or perform image-to-image translation (changing daytime scenes to nighttime, or changing a horse into a zebra, for example).
+
+* Variational Autoencoders (VAEs): These are generative models that use deep learning techniques to produce sophisticated and compressed representations of input data (encoding), and then generate new data from these representations (decoding). VAEs are often used in tasks that involve generating examples that are variations of the input data, such as creating new images that resemble a training set of images.
+
+* Transformer Models: These models are primarily used in natural language processing to generate text. They work by processing input data (like a sentence or paragraph) in parallel rather than sequentially, allowing for more efficient computation and the ability to handle longer sequences of text. GPT-3, developed by OpenAI, is an example of a transformer model used for text generation.
+
+Generative AI techniques are powerful, but they also raise some ethical and societal concerns, such as the potential for misuse in deepfakes or generating misleading information.
+
+## Generative tasks
+
+Generative tasks in machine learning (ML) refer to the creation of new data samples that are statistically similar to the input data. These tasks utilize generative models, a subset of ML models, which learn the joint probability distribution of the input data, and can then generate new data samples from the learned distribution.
+
+Let's look at some types of generative tasks and the generative models often associated with them:
+
+* Image Generation: Models like Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs) are trained to generate new images that resemble the ones they were trained on. This can include anything from generating images of faces that don't exist to creating artwork.
+
+* Text Generation: Models like GPT-3, a Transformer-based model, can generate human-like text. Given a prompt or starting sentence, the model generates the rest of the content.
+
+* Speech Synthesis: Speech synthesis involves generating human-like speech from written text. This is commonly used in text-to-speech systems.
+
+* Data Augmentation: Generative models can create synthetic data that resembles the original training data. This is useful when the amount of real data is limited.
+
+* Sequence Generation: Models such as Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks are used for sequence generation tasks, such as generating a sequence of words, music notes, or a series of future stock prices.
+
+* Image-to-Image Translation: GANs are also used for tasks where the goal is to translate one type of image into another, for example, transforming a sketch into a colored image, or changing day scenes into night scenes.
+
+* Super-resolution: Generative models can take a low-resolution image and generate a high-resolution version of the same image.
 
 ## text
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
