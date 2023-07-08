@@ -176,6 +176,10 @@ Let's look at some types of generative tasks and the generative models often ass
 ## Health record
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
 |:-:|:--|:--|
+| **Text-to-Health Record** | AI models can translate raw text data (e.g., doctor's notes, patient self-reports) into structured health record data. | Streamlining data entry, improving the comprehensiveness of health records. |
+| **Health Record-to-Text** | AI models can generate medical reports, summaries, or explanations based on structured health record data. | Automating documentation, improving patient understanding of their health conditions. |
+| **Health Record-to-Image (Visual Representation)** | AI models can create visual representations or infographics based on health record data. | Enhancing patient engagement, supporting healthcare providers in understanding patient history at a glance. |
+| **Health Record-to-Video (Simulation)** | AI models can generate a video simulation or timeline of a patient's health trajectory based on historical health record data. | Providing visual aids for patient education, facilitating doctor-patient communication. |
 
 ## Claims
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
