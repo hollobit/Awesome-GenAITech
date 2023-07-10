@@ -127,11 +127,13 @@ Let's look at some types of generative tasks and the generative models often ass
 |Retinal-to-Text|	Translates retinal images into textual descriptions.|	Used to create ophthalmology reports from retinal images.	|
 
 ### Image-to-text
-* Task - [Image-to-Text Retrieval](https://paperswithcode.com/task/image-to-text-retrieval]
+* Task - [Image-to-Text Retrieval](https://paperswithcode.com/task/image-to-text-retrieval)
 
 ### Image-to-Image
 * Task - [Image-to-Image Translation](https://paperswithcode.com/task/image-to-image-translation)
 * [awesome image-to-image translation](https://github.com/weihaox/awesome-image-translation)![GitHub Repo stars](https://img.shields.io/github/stars/weihaox/awesome-image-translation?style=social))
+* MedGAN: Medical Image Translation using GANs ([:x:](https://arxiv.org/abs/1806.06397)), ([:paperclip:](https://arxiv.org/pdf/1806.06397.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/1806.06397)), ([:house:](https://huggingface.co/papers/1806.06397)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/medgan-medical-image-translation-using-gans))
+* MRI Cross-Modality Image-to-Image Translation (Scientific Reports, [https://doi.org/10.1038/s41598-020-60520-6](https://www.nature.com/articles/s41598-020-60520-6)), ([PDF](https://www.nature.com/articles/s41598-020-60520-6.pdf?pdf=button%20sticky)) 
 * Image-to-Image Translation: Methods and Applications ([:x:](https://arxiv.org/abs/2101.08629)), ([:paperclip:](https://arxiv.org/pdf/2101.08629.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2101.08629)), ([:house:](https://huggingface.co/papers/2101.08629)), ([:eight_spoked_asterisk:]()) 
 * [Unsupervised Image-to-Image Translation: A Review](https://www.mdpi.com/1424-8220/22/21/8540)
 * [Application of generative adversarial networks (GAN) for ophthalmology image domains: a survey](https://eandv.biomedcentral.com/articles/10.1186/s40662-022-00277-3) 
