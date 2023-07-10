@@ -46,15 +46,19 @@ Let's look at some types of generative tasks and the generative models often ass
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
 |:-:|:--|:--|
 |Text-to-Text|	Converts textual descriptions into other forms of text.|	Used to generate medical reports, patient summaries, or transform complex medical information into plain language for patients.	|																						
-|Image-to-Text|	Converts image data into textual descriptions.|	Used in radiology to convert images like X-rays or CT scans into radiology reports.|															|Text-to-Image|	Generates image data from text descriptions.|	Could be used to generate educational illustrations based on textual descriptions of anatomical structures or physiological processes.|																							
-|Video-to-Text|	Converts video data into textual descriptions.|	Used to generate surgery reports or patient monitoring reports based on video inputs.|														|Text-to-Video|	Generates video data from textual descriptions.	|Could be used to generate educational videos based on descriptions of surgical procedures or medical conditions.|																							
-|Audio-to-Text|	Converts audio data into textual descriptions.|	Used in transcribing patient-doctor conversations, telemedicine calls, or dictations for electronic health records.|																							
-|Text-to-Audio|	Generates audio data from textual descriptions.|	Used in text-to-speech systems for visually impaired patients or for reading out electronic health records or educational material.	|																						
-|BioSignal-to-Text|	Converts biological signals into textual descriptions.|	Used to generate reports or alerts based on bio-signal data like ECG or EEG readings.	|								|Text-to-BioSignal|	Generates biological signal data from textual descriptions.|	Could be used to simulate bio-signal scenarios based on descriptions for education or testing of medical devices.|																							
-|Pharmacogenomics-to-Text|	Converts drug response data into textual descriptions.|	Used to generate personalized medication reports based on a patient's genomic information.|		|Text-to-Pharmacogenomics|	Generates drug response data from textual descriptions.|	Could be used to simulate drug response scenarios based on descriptions of patient's genetic information.		|																					
-|Epidemiology-to-Text|	Converts epidemiological data into textual descriptions.|	Used to generate public health reports, research summaries, or education material based on epidemiological data.	|																						
-|Text-to-Epidemiology|	Generates epidemiological data from text descriptions.|	Could be used to model the spread of a disease or simulate epidemic scenarios based on descriptions.|																							
-|GenomicVariations-to-Text|	Converts genomic variation data into text descriptions.|	Used to generate personalized genetic reports or genetic counseling material.	|							|Text-to-GenomicVariations|	Generates genomic variation data from text descriptions.|	Could be used to model patterns of specific genomic variations or simulate scenarios of genomic variations based on text descriptions.	|																			
+|Image-to-Text|	Converts image data into textual descriptions.|	Used in radiology to convert images like X-rays or CT scans into radiology reports.|	
+|Text-to-Image|	Generates image data from text descriptions.|	Could be used to generate educational illustrations based on textual descriptions of anatomical structures or physiological processes.|		
+|Video-to-Text|	Converts video data into textual descriptions.|	Used to generate surgery reports or patient monitoring reports based on video inputs.|
+|Text-to-Video|	Generates video data from textual descriptions.	|Could be used to generate educational videos based on descriptions of surgical procedures or medical conditions.|
+|Audio-to-Text|	Converts audio data into textual descriptions.|	Used in transcribing patient-doctor conversations, telemedicine calls, or dictations for electronic health records.|
+|Text-to-Audio|	Generates audio data from textual descriptions.|	Used in text-to-speech systems for visually impaired patients or for reading out electronic health records or educational material.	|
+|BioSignal-to-Text|	Converts biological signals into textual descriptions.|	Used to generate reports or alerts based on bio-signal data like ECG or EEG readings.	|
+|Text-to-BioSignal|	Generates biological signal data from textual descriptions.|	Could be used to simulate bio-signal scenarios based on descriptions for education or testing of medical devices.|
+|Pharmacogenomics-to-Text|	Converts drug response data into textual descriptions.|	Used to generate personalized medication reports based on a patient's genomic information.|
+|Text-to-Pharmacogenomics|	Generates drug response data from textual descriptions.|	Could be used to simulate drug response scenarios based on descriptions of patient's genetic information.	|
+|Epidemiology-to-Text|	Converts epidemiological data into textual descriptions.|	Used to generate public health reports, research summaries, or education material based on epidemiological data.	|
+|Text-to-Epidemiology|	Generates epidemiological data from text descriptions.|	Could be used to model the spread of a disease or simulate epidemic scenarios based on descriptions.|							|GenomicVariations-to-Text|	Converts genomic variation data into text descriptions.|	Used to generate personalized genetic reports or genetic counseling material.	|
+|Text-to-GenomicVariations|	Generates genomic variation data from text descriptions.|	Could be used to model patterns of specific genomic variations or simulate scenarios of genomic variations based on text descriptions.	|
 
 ### Text-to-Text
 * [Text Generation](https://paperswithcode.com/task/text-generation)
@@ -91,29 +95,49 @@ Let's look at some types of generative tasks and the generative models often ass
 ## image
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
 |:-:|:--|:--|
-|Text-to-Image|	Converts textual descriptions into image data.|	Used to generate medical illustrations from descriptions of anatomical or physiological processes.		|						|Image-to-Text|	Translates image data into textual descriptions.|	Used to create radiology reports from images like X-rays or CT scans.	|																					|Image-to-Image|	Transforms one type of image into another.|	Used in medical imaging to convert between imaging modalities (e.g., MRI to CT) or to enhance image quality.	|			|Video-to-Image|	Converts video data into image data.|	Used to create static images from medical videos for further analysis or documentation.|																	|Image-to-Video|	Generates video data from image inputs.|	Used to create dynamic visualizations from static medical images, such as animated 3D renderings from CT scans.|			|Audio-to-Image|	Converts audio data into image data.|	Used to create visual representations of audio data, such as sonograms from heart sounds.|																|Image-to-Audio|	Generates audio data from image inputs.|	Could be used to sonify medical images, providing an alternative way to interpret the data.		|												|BioSignal-to-Image|	Converts biological signals into image data.|	Used to create visual representations of bio-signal data, such as heat maps of brain activity from EEG signals.	|																						
-|Image-to-BioSignal	|Generates biological signal data from image inputs.|	Could be used to simulate bio-signal scenarios based on medical images for device testing or training purposes.		|																					
-|Pharmacogenomics-to-Image|	Converts drug response data into images.|	Used to create visual representations of drug responses at the molecular level, such as protein-drug interactions.		|																					
-|Image-to-Pharmacogenomics|	Generates drug response data from image inputs.|	Could be used to predict drug responses based on images of cellular reactions or patient-specific medical images.	|																						
-|Epidemiology-to-Image|	Converts epidemiological data into images.|	Used to create visual representations of disease spread, such as heat maps or geographic distributions.	|			|Image-to-Epidemiology|	Generates epidemiological data from image inputs.|	Could be used to predict disease spread based on images of social behavior or geographic conditions.	|																						
-|GenomicVariations-to-Image|	Converts genomic variation data into images.|	Used to create visual representations of genomic variations, such as images of DNA structures incorporating specific variants.		|																					
-|Image-to-GenomicVariations|	Generates genomic variation data from image inputs.|	Could be used to predict genomic variations based on cellular images or images of genetic structures.|																							
-|Text-to-X-ray|	Generates X-ray images from textual descriptions.|	Could be used to create educational or simulation scenarios based on textual descriptions of conditions or diseases.	|																						
-|X-ray-to-Text|	Translates X-ray images into textual descriptions.|	Used to create radiology reports from X-ray images.	|					|Text-to-MRI|	Generates MRI images from textual descriptions.|	Used for simulation and educational purposes based on textual descriptions of conditions or diseases.|																							
-|MRI-to-Text|	Translates MRI images into textual descriptions.|	Used to create radiology reports from MRI images.		|							|MRI-to-CT|	Transforms MRI images into CT images.|	Used for data augmentation or to simulate CT when not available.	|						|Text-to-CT|	Generates CT images from textual descriptions.|	Used for simulation and educational purposes based on textual descriptions of conditions or diseases.	|																						
-|CT-to-Text|	Translates CT images into textual descriptions.|	Used to create radiology reports from CT images.|									|Text-to-Ultrasound|	Generates ultrasound images from textual descriptions.|	Could be used for training purposes based on textual descriptions of conditions or diseases.	|																						
-|Ultrasound-to-Text|	Translates ultrasound images into textual descriptions.|	Used to create radiology reports from ultrasound images.|																					|Text-to-PET|	Generates PET images from textual descriptions.|	Used for simulation and educational purposes based on textual descriptions of conditions or diseases.|						|PET-to-Text|	Translates PET images into textual descriptions.|	Used to create radiology reports from PET images.	|							
-|Text-to-Histopathology|	Generates histopathological images from textual descriptions.|	Could be used for training and education purposes based on descriptions of pathological findings.|																							
-|Histopathology-to-Text|	Translates histopathological images into textual descriptions.|	Used to create pathology reports from histopathological images.	|												|Text-to-Microscopy|	Generates microscopy images from textual descriptions.|	Could be used for training and education purposes based on descriptions of microscopic findings.|		|Microscopy-to-Text|	Translates microscopy images into textual descriptions.|	Used to create laboratory reports from microscopic images.	|																			|Text-to-Retinal|	Generates retinal images from textual descriptions.|	Could be used for training and education purposes based on descriptions of ophthalmic conditions.|				|Retinal-to-Text|	Translates retinal images into textual descriptions.|	Used to create ophthalmology reports from retinal images.	|
+|Text-to-Image|	Converts textual descriptions into image data.|	Used to generate medical illustrations from descriptions of anatomical or physiological processes.		|						
+|Image-to-Text|	Translates image data into textual descriptions.|	Used to create radiology reports from images like X-rays or CT scans.	|																					
+|Image-to-Image|	Transforms one type of image into another.|	Used in medical imaging to convert between imaging modalities (e.g., MRI to CT) or to enhance image quality.	|			
+|Video-to-Image|	Converts video data into image data.|	Used to create static images from medical videos for further analysis or documentation.|																	
+|Image-to-Video|	Generates video data from image inputs.|	Used to create dynamic visualizations from static medical images, such as animated 3D renderings from CT scans.|			
+|Audio-to-Image|	Converts audio data into image data.|	Used to create visual representations of audio data, such as sonograms from heart sounds.|																
+|Image-to-Audio|	Generates audio data from image inputs.|	Could be used to sonify medical images, providing an alternative way to interpret the data.		|												
+|BioSignal-to-Image|	Converts biological signals into image data.|	Used to create visual representations of bio-signal data, such as heat maps of brain activity from EEG signals.	|	
+|Image-to-BioSignal	|Generates biological signal data from image inputs.|	Could be used to simulate bio-signal scenarios based on medical images for device testing or training purposes.		|
+|Pharmacogenomics-to-Image|	Converts drug response data into images.|	Used to create visual representations of drug responses at the molecular level, such as protein-drug interactions.		|
+|Image-to-Pharmacogenomics|	Generates drug response data from image inputs.|	Could be used to predict drug responses based on images of cellular reactions or patient-specific medical images.	|
+|Epidemiology-to-Image|	Converts epidemiological data into images.|	Used to create visual representations of disease spread, such as heat maps or geographic distributions.	|			
+|Image-to-Epidemiology|	Generates epidemiological data from image inputs.|	Could be used to predict disease spread based on images of social behavior or geographic conditions.	|	
+|GenomicVariations-to-Image|	Converts genomic variation data into images.|	Used to create visual representations of genomic variations, such as images of DNA structures incorporating specific variants.		|			
+|Image-to-GenomicVariations|	Generates genomic variation data from image inputs.|	Could be used to predict genomic variations based on cellular images or images of genetic structures.|
+|Text-to-X-ray|	Generates X-ray images from textual descriptions.|	Could be used to create educational or simulation scenarios based on textual descriptions of conditions or diseases.	
+|X-ray-to-Text|	Translates X-ray images into textual descriptions.|	Used to create radiology reports from X-ray images.	|					
+|Text-to-MRI|	Generates MRI images from textual descriptions.|	Used for simulation and educational purposes based on textual descriptions of conditions or diseases.|
+|MRI-to-Text|	Translates MRI images into textual descriptions.|	Used to create radiology reports from MRI images.		|							
+|MRI-to-CT|	Transforms MRI images into CT images.|	Used for data augmentation or to simulate CT when not available.	|						
+|Text-to-CT|	Generates CT images from textual descriptions.|	Used for simulation and educational purposes based on textual descriptions of conditions or diseases.	|
+|CT-to-Text|	Translates CT images into textual descriptions.|	Used to create radiology reports from CT images.|									
+|Text-to-Ultrasound|	Generates ultrasound images from textual descriptions.|	Could be used for training purposes based on textual descriptions of conditions or diseases.	|											|Ultrasound-to-Text|	Translates ultrasound images into textual descriptions.|	Used to create radiology reports from ultrasound images.|																					
+|Text-to-PET|	Generates PET images from textual descriptions.|	Used for simulation and educational purposes based on textual descriptions of conditions or diseases.|						
+|PET-to-Text|	Translates PET images into textual descriptions.|	Used to create radiology reports from PET images.	|							
+|Text-to-Histopathology|	Generates histopathological images from textual descriptions.|	Could be used for training and education purposes based on descriptions of pathological findings.|			|Histopathology-to-Text|	Translates histopathological images into textual descriptions.|	Used to create pathology reports from histopathological images.	|												
+|Text-to-Microscopy|	Generates microscopy images from textual descriptions.|	Could be used for training and education purposes based on descriptions of microscopic findings.|		
+|Microscopy-to-Text|	Translates microscopy images into textual descriptions.|	Used to create laboratory reports from microscopic images.	|																			
+|Text-to-Retinal|	Generates retinal images from textual descriptions.|	Could be used for training and education purposes based on descriptions of ophthalmic conditions.|				
+|Retinal-to-Text|	Translates retinal images into textual descriptions.|	Used to create ophthalmology reports from retinal images.	|
 
 ### Image-to-text
-* [Image-to-Text Retrieval](https://paperswithcode.com/task/image-to-text-retrieval]
+* Task - [Image-to-Text Retrieval](https://paperswithcode.com/task/image-to-text-retrieval]
 
 ### Image-to-Image
-* [Image-to-Image Translation](https://paperswithcode.com/task/image-to-image-translation)
+* Task - [Image-to-Image Translation](https://paperswithcode.com/task/image-to-image-translation)
 * [awesome image-to-image translation](https://github.com/weihaox/awesome-image-translation)![GitHub Repo stars](https://img.shields.io/github/stars/weihaox/awesome-image-translation?style=social))
 * Image-to-Image Translation: Methods and Applications ([:x:](https://arxiv.org/abs/2101.08629)), ([:paperclip:](https://arxiv.org/pdf/2101.08629.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2101.08629)), ([:house:](https://huggingface.co/papers/2101.08629)), ([:eight_spoked_asterisk:]()) 
 * [Unsupervised Image-to-Image Translation: A Review](https://www.mdpi.com/1424-8220/22/21/8540)
+* [Application of generative adversarial networks (GAN) for ophthalmology image domains: a survey](https://eandv.biomedcentral.com/articles/10.1186/s40662-022-00277-3) 
+* Comparison and Analysis of Image-to-Image Generative Adversarial Networks: A Survey ([:x:](https://arxiv.org/abs/2112.12625)), ([:paperclip:](https://arxiv.org/pdf/2112.12625.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2112.12625)), ([:house:](https://huggingface.co/papers/2112.12625)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/comparison-and-analysis-of-image-to-image)) 
+* [A Survey of Image Synthesis and Editing with Generative Adversarial Networks](https://cg.cs.tsinghua.edu.cn/people/~kun/papers/gan_survey_final.pdf)
+
 
 ## video
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
@@ -135,6 +159,9 @@ Let's look at some types of generative tasks and the generative models often ass
 |Audio-to-Microbiomic|s	Generates microbial data from audio inputs.|	Could be used to correlate sounds in an environment with changes in microbial communities.|
 |Audio-to-Pharmacogenomics|	Generates drug response data from audio inputs.|	Used to correlate sounds with potential drug responses.|
 |Audio-to-Text|	Transcribes audio content into written form.|	Used to transcribe physician-patient conversations, medical lectures, or medical audio books.|
+
+### Audio-to-text
+* Task - [Audio to Text Retrieval](https://paperswithcode.com/task/audio-to-text-retrieval)
 
 ## 3D model
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
