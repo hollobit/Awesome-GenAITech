@@ -76,6 +76,9 @@ Let's look at some types of generative tasks and the generative models often ass
 * [A survey on generative adversarial network-based text-to-image synthesis](https://www.sciencedirect.com/science/article/abs/pii/S0925231221006111) 
 * [𝓐𝔀𝓮𝓼𝓸𝓶𝓮 𝓣𝓮𝔁𝓽📝-𝓽𝓸-𝓘𝓶𝓪𝓰𝓮🌇](https://github.com/Yutong-Zhou-cv/Awesome-Text-to-Image)![GitHub Repo stars](https://img.shields.io/github/stars/Yutong-Zhou-cv/Awesome-Text-to-Image?style=social))
 
+### Text-to-Image segmentation 
+* Image Segmentation Using Text and Image Prompts  ([:x:](https://arxiv.org/abs/2112.10003)), ([:paperclip:](https://arxiv.org/pdf/2112.10003.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2112.10003)), ([:house:](https://huggingface.co/papers/2112.10003)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/prompt-based-multi-modal-image-segmentation)) 
+
 ### Text-to-3D
 * Task - [Text to 3D](https://paperswithcode.com/task/text-to-3d)
 * Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era ([:x:](https://arxiv.org/abs/2305.06131)), ([:paperclip:](https://arxiv.org/pdf/2305.06131.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2305.06131)), ([:house:](https://huggingface.co/papers/2305.06131)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/generative-ai-meets-3d-a-survey-on-text-to-3d)) 
@@ -128,6 +131,7 @@ Let's look at some types of generative tasks and the generative models often ass
 
 ### Image-to-text
 * Task - [Image-to-Text Retrieval](https://paperswithcode.com/task/image-to-text-retrieval)
+* [Recent Advances in Vision and Language PreTrained Models (VL-PTMs)](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers)![GitHub Repo stars](https://img.shields.io/github/stars/yuewang-cuhk/awesome-vision-language-pretraining-papers?style=social))
 
 ### Image-to-Image
 * Task - [Image-to-Image Translation](https://paperswithcode.com/task/image-to-image-translation)
@@ -139,6 +143,15 @@ Let's look at some types of generative tasks and the generative models often ass
 * [Application of generative adversarial networks (GAN) for ophthalmology image domains: a survey](https://eandv.biomedcentral.com/articles/10.1186/s40662-022-00277-3) 
 * Comparison and Analysis of Image-to-Image Generative Adversarial Networks: A Survey ([:x:](https://arxiv.org/abs/2112.12625)), ([:paperclip:](https://arxiv.org/pdf/2112.12625.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2112.12625)), ([:house:](https://huggingface.co/papers/2112.12625)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/comparison-and-analysis-of-image-to-image)) 
 * [A Survey of Image Synthesis and Editing with Generative Adversarial Networks](https://cg.cs.tsinghua.edu.cn/people/~kun/papers/gan_survey_final.pdf)
+* [Awesome-Diffusion-Models-in-Medical-Imaging](https://github.com/amirhossein-kz/Awesome-Diffusion-Models-in-Medical-Imaging)![GitHub Repo stars](https://img.shields.io/github/stars/amirhossein-kz/Awesome-Diffusion-Models-in-Medical-Imaging?style=social))
+* [Awesome GAN for Medical Imaging](https://github.com/xinario/awesome-gan-for-medical-imaging)![GitHub Repo stars](https://img.shields.io/github/stars/xinario/awesome-gan-for-medical-imaging?style=social))
+* [Awesome Transformers in Medical Imaging](https://github.com/fahadshamshad/awesome-transformers-in-medical-imaging)![GitHub Repo stars](https://img.shields.io/github/stars/fahadshamshad/awesome-transformers-in-medical-imaging?style=social))
+* Diffusion Models in Medical Imaging: A Comprehensive Survey ([:x:](https://arxiv.org/abs/2211.07804)), ([:paperclip:](https://arxiv.org/pdf/2211.07804.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2211.07804)), ([:house:](https://huggingface.co/papers/2211.07804)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/diffusion-models-for-medical-image-analysis-a))
+* [The Role of Generative Adversarial Network in Medical Image Analysis: An In-depth Survey](https://dl.acm.org/doi/10.1145/3527849)
+* [Brain tumor image generation using an aggregation of GAN models with style transfer](https://www.nature.com/articles/s41598-022-12646-y) 
+* [Generative Adversarial Networks in Medical Image augmentation: A review](https://www.sciencedirect.com/science/article/pii/S0010482522001743)
+* [Generative adversarial networks and its applications in the biomedical image segmentation: a comprehensive survey](https://link.springer.com/article/10.1007/s13735-022-00240-x)
+* [Generative Adversarial Networks: A Primer for Radiologists](https://pubs.rsna.org/doi/full/10.1148/rg.2021200151)
 
 
 ## video
@@ -152,6 +165,11 @@ Let's look at some types of generative tasks and the generative models often ass
 |Video-to-Text|	Generates descriptive text from video data.|	Used for automated note-taking during surgical procedures or other medical events.|
 |Video-to-Video|	Converts one style of video into another style.|	Could be used to enhance the clarity of surgical procedure videos or simulate different surgical scenarios.|
 
+### Video-to-Text
+* Task - [Video to Text Retrieval](https://paperswithcode.com/task/video-to-text-retrieval)
+* [Awesome Video-Text Retrieval by Deep Learning](https://github.com/danieljf24/awesome-video-text-retrieval)![GitHub Repo stars](https://img.shields.io/github/stars/danieljf24/awesome-video-text-retrieval?style=social))
+* [Recent Advances in Vision and Language PreTrained Models (VL-PTMs)](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers)![GitHub Repo stars](https://img.shields.io/github/stars/yuewang-cuhk/awesome-vision-language-pretraining-papers?style=social))
+  
 ## audio
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
 |:-:|:--|:--|
@@ -164,7 +182,9 @@ Let's look at some types of generative tasks and the generative models often ass
 
 ### Audio-to-text
 * Task - [Audio to Text Retrieval](https://paperswithcode.com/task/audio-to-text-retrieval)
+* [Recent Advances in Vision and Language PreTrained Models (VL-PTMs)](https://github.com/yuewang-cuhk/awesome-vision-language-pretraining-papers)![GitHub Repo stars](https://img.shields.io/github/stars/yuewang-cuhk/awesome-vision-language-pretraining-papers?style=social))
 
+  
 ## 3D model
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
 |:-:|:--|:--|
