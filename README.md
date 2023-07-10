@@ -61,35 +61,35 @@ Let's look at some types of generative tasks and the generative models often ass
 |Text-to-GenomicVariations|	Generates genomic variation data from text descriptions.|	Could be used to model patterns of specific genomic variations or simulate scenarios of genomic variations based on text descriptions.	|
 
 ### Text-to-Text
-* [Text Generation](https://paperswithcode.com/task/text-generation)
+* Task - [Text Generation](https://paperswithcode.com/task/text-generation)
 * [A survey on text generation using generative adversarial networks](https://dl.acm.org/doi/10.1016/j.patcog.2021.108098)
 * Pretrained Language Models for Text Generation: A Survey ([:x:](https://arxiv.org/abs/2201.05273)), ([:paperclip:](https://arxiv.org/pdf/2201.05273.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2201.05273)), ([:house:](https://huggingface.co/papers/2201.05273)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/a-survey-of-pretrained-language-models-based)) 
 * A Survey of Controllable Text Generation using Transformer-based Pre-trained Language Models ([:x:](https://arxiv.org/abs/2201.05337)), ([:paperclip:](https://arxiv.org/pdf/2201.05337.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2201.05337)), ([:house:](https://huggingface.co/papers/2201.05337)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/a-survey-of-controllable-text-generation)) 
 * [Towards User-Centric Text-to-Text Generation: A Survey](https://link.springer.com/chapter/10.1007/978-3-030-83527-9_1)
 
 ### Text-to-SQL
-* [Text-To-SQL](https://paperswithcode.com/task/text-to-sql) 
+* Task - [Text-To-SQL](https://paperswithcode.com/task/text-to-sql) 
 
 ### Text-to-Image
-* [Text-to-Image Generation](https://paperswithcode.com/task/text-to-image-generation)
+* Task - [Text-to-Image Generation](https://paperswithcode.com/task/text-to-image-generation)
 * Text-to-image Diffusion Models in Generative AI: A Survey ([:x:](https://arxiv.org/abs/2303.07909)), ([:paperclip:](https://arxiv.org/pdf/2303.07909.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2303.07909)), ([:house:](https://huggingface.co/papers/2303.07909)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/text-to-image-diffusion-model-in-generative)) 
 * [A survey on generative adversarial network-based text-to-image synthesis](https://www.sciencedirect.com/science/article/abs/pii/S0925231221006111) 
 * [𝓐𝔀𝓮𝓼𝓸𝓶𝓮 𝓣𝓮𝔁𝓽📝-𝓽𝓸-𝓘𝓶𝓪𝓰𝓮🌇](https://github.com/Yutong-Zhou-cv/Awesome-Text-to-Image)![GitHub Repo stars](https://img.shields.io/github/stars/Yutong-Zhou-cv/Awesome-Text-to-Image?style=social))
 
 ### Text-to-3D
-* [Text to 3D](https://paperswithcode.com/task/text-to-3d)
+* Task - [Text to 3D](https://paperswithcode.com/task/text-to-3d)
 * Generative AI meets 3D: A Survey on Text-to-3D in AIGC Era ([:x:](https://arxiv.org/abs/2305.06131)), ([:paperclip:](https://arxiv.org/pdf/2305.06131.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2305.06131)), ([:house:](https://huggingface.co/papers/2305.06131)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/generative-ai-meets-3d-a-survey-on-text-to-3d)) 
 
 ### Text-to-Audio
-* [Audio Generation](https://paperswithcode.com/task/audio-generation)
+* Task - [Audio Generation](https://paperswithcode.com/task/audio-generation)
 * [Text to Audio Retrieval](https://paperswithcode.com/task/text-to-audio-retrieval)
 * [A Survey on Audio Diffusion Models: Text To Speech Synthesis and Enhancement in Generative AI](https://ui.adsabs.harvard.edu/abs/2023arXiv230313336Z/abstract)
 
 ### Text-to-music 
-* [Text-to-Music Generation](https://paperswithcode.com/task/text-to-music-generation)
+* Task - [Text-to-Music Generation](https://paperswithcode.com/task/text-to-music-generation)
 
 ### Text-to-speech
-* [Text-To-Speech Synthesis](https://paperswithcode.com/task/text-to-speech-synthesis) 
+* Task - [Text-To-Speech Synthesis](https://paperswithcode.com/task/text-to-speech-synthesis) 
 
 
 ## image
