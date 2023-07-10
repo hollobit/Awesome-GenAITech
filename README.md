@@ -1,4 +1,4 @@
-# Awesome Generative AI Techniques
+# Awesome Generative AI Techniques [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A Classification and a list of papers and other resources on Generative AI Techniques. 
 
@@ -9,7 +9,24 @@ Generative AI refers to a type of artificial intelligence, most commonly associa
 Generative AI systems can create a wide range of outputs, including but not limited to text, images, music, and voice. 
 
 ## Table of Content
-
+- [Awesome-GenAITech ](#awesome-genaitech-)
+  - [Table of Content](#table-of-content)
+  - [Generative ML models](#generative-ml-models)
+  - [Generative tasks](#generative-tasks)
+  - [Text](#text)
+  - [Image](#image)
+  - [Video](#video)
+  - [Audio](#audio)
+  - [3D model](#3d-model)
+  - [Bio signal](#bio-signal)
+  - [Pathology](#pathology)
+  - [Molecular structure](#molecular-structure)
+  - [Omics](#omics)
+  - [Health Record](#health-record)
+  - [Claims](#claims)
+  - [Issues](#issues)
+  - [Contributing](#contributing)
+ 
 ## Generative ML models
 
 A few key examples of ML models for generative AI are:
@@ -244,7 +261,7 @@ Let's look at some types of generative tasks and the generative models often ass
 |Pharmacogenomics-to-Text|	Converts drug response data into textual descriptions.|	Used to generate reports about potential drug responses based on genetic information.|
 |Pharmacogenomics-to-Video|	Converts drug response data into video.|	Used to visualize how drug responses could change over time.|
 
-## Health record
+## Health Record
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
 |:-:|:--|:--|
 | **Text-to-Health Record** | AI models can translate raw text data (e.g., doctor's notes, patient self-reports) into structured health record data. | Streamlining data entry, improving the comprehensiveness of health records. |
