@@ -93,8 +93,12 @@ Let's look at some types of generative tasks and the generative models often ass
 * [A survey on generative adversarial network-based text-to-image synthesis](https://www.sciencedirect.com/science/article/abs/pii/S0925231221006111) 
 * [𝓐𝔀𝓮𝓼𝓸𝓶𝓮 𝓣𝓮𝔁𝓽📝-𝓽𝓸-𝓘𝓶𝓪𝓰𝓮🌇](https://github.com/Yutong-Zhou-cv/Awesome-Text-to-Image)![GitHub Repo stars](https://img.shields.io/github/stars/Yutong-Zhou-cv/Awesome-Text-to-Image?style=social))
 
+### Text-to-Image(CT)
+* GenerateCT: Text-Guided 3D Chest CT Generation ([:x:](https://arxiv.org/abs/2305.16037)), ([:paperclip:](https://arxiv.org/pdf/2305.16037.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2305.16037)), ([:house:](https://huggingface.co/papers/2305.16037)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/generatect-text-guided-3d-chest-ct-generation)) 
+  
 ### Text-to-Image segmentation 
-* Image Segmentation Using Text and Image Prompts  ([:x:](https://arxiv.org/abs/2112.10003)), ([:paperclip:](https://arxiv.org/pdf/2112.10003.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2112.10003)), ([:house:](https://huggingface.co/papers/2112.10003)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/prompt-based-multi-modal-image-segmentation)) 
+* Image Segmentation Using Text and Image Prompts  ([:x:](https://arxiv.org/abs/2112.10003)), ([:paperclip:](https://arxiv.org/pdf/2112.10003.pdf)), ([:orange_book:](https://www.arxiv-vanity.com/papers/2112.10003)), ([:house:](https://huggingface.co/papers/2112.10003)), ([:eight_spoked_asterisk:](https://paperswithcode.com/paper/prompt-based-multi-modal-image-segmentation))
+
 
 ### Text-to-3D
 * Task - [Text to 3D](https://paperswithcode.com/task/text-to-3d)
@@ -169,7 +173,7 @@ Let's look at some types of generative tasks and the generative models often ass
 * [Generative Adversarial Networks in Medical Image augmentation: A review](https://www.sciencedirect.com/science/article/pii/S0010482522001743)
 * [Generative adversarial networks and its applications in the biomedical image segmentation: a comprehensive survey](https://link.springer.com/article/10.1007/s13735-022-00240-x)
 * [Generative Adversarial Networks: A Primer for Radiologists](https://pubs.rsna.org/doi/full/10.1148/rg.2021200151)
-
+* [Breaking the Dilemma of Medical Image-to-image Translation](https://www.semanticscholar.org/paper/Breaking-the-Dilemma-of-Medical-Image-to-image-Kong-Lian/047821d6f05b47e587d58f2a4d5a5322600c3008)
 
 ## video
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
@@ -221,6 +225,10 @@ Let's look at some types of generative tasks and the generative models often ass
 |3D Model-to-Epidemiology|	Generates epidemiological data from 3D model inputs.|	Could be used to predict disease spread based on 3D models of population distribution and mobility.|
 |GenomicVariations-to-3D Model|	Converts genomic variation data into 3D models.|	Used to create 3D models of genetic structures (like DNA or proteins) that incorporate specific genomic variations.|
 |3D Model-to-GenomicVariations|	Generates genomic variation data from 3D model inputs.|	Could be used to predict potential genomic variations based on 3D models of genetic structures.|
+
+### Text-to-3D
+* Task - [Text-to-3D](https://paperswithcode.com/task/text-to-3d)
+ 
 
 ## Bio signal
 | Type of Generative AI Technique | Description | Examples of Medical Applications |
